@@ -26,5 +26,8 @@ namespace EP.SOLID.DIP.Solucao
         {
             return _emailServices.IsValid(Email) && _cpfServices.IsValid(CPF);
         }
+
+        private readonly string teste;
+
     }
 }
